@@ -12,9 +12,13 @@ public class App
 {
     public static void main( String[] args )
     {
+        System.out.println("-----------------------------------------");
         createArrayList();
+        System.out.println("-----------------------------------------");
         createHashSet();
+        System.out.println("-----------------------------------------");
         createTreeMap();
+        System.out.println("-----------------------------------------");
 
     }
 

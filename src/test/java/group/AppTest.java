@@ -15,7 +15,7 @@ import java.util.TreeMap;
 public class AppTest 
 {
     /**
-     * Rigorous Test :-)
+     *
      */
     @Test
     public void shouldAnswerWithTrue()
@@ -26,6 +26,7 @@ public class AppTest
     @Test
     public void createArrayList() {
         ArrayList<String> arrayList = new ArrayList<>();
+
         arrayList.add("Kelvin");
         arrayList.add("Shane");
         arrayList.add("Kyle");
@@ -46,6 +47,7 @@ public class AppTest
         Assert.assertEquals("Contains 'Kelvin'", hashSet.contains("Kelvin"),true);
     }
 
+    //.
     @Test
     public void createTreeMap() {
         TreeMap<Integer, String> treeMap = new TreeMap<>();
